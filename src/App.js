@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 
 import './App.scss';
 
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hello React</h1>
+        <Button>Hello</Button>
       </div>
     );
   }
