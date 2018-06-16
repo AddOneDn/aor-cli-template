@@ -1,11 +1,15 @@
 {
-  "name": "aor-cli-template",
+  "name": "{{name}}",
   "version": "1.0.0",
+  "description": "{{description}}",
+  "author": "{{author}}",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "watch": "parcel watch index.html"
   },
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "babel-preset-env": "^1.7.0",
     "node-sass": "^4.9.0",

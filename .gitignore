@@ -12,6 +12,9 @@
 npm-debug.log*
 yarn-error.log
 
+# cache
+/.cache
+
 /coverage
 .idea
 yarn.lock
