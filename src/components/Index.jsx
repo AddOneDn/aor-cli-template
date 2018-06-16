@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import { Card } from 'antd';
 
 class Index extends Component {
   render() {
     return (
-      <h1> Index Page </h1>
+      <Card style={{ width: 300 }}>
+        <h1>Index content</h1>
+        <h1>Index content</h1>
+        <h1>Index content</h1>
+      </Card>
     );
   }
 }
