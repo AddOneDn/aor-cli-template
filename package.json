@@ -11,6 +11,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "astro-classname": "^1.0.4",
     "antd": "^3.6.2",
     "node-sass": "^4.9.0",
     "react": "^16.4.1",
